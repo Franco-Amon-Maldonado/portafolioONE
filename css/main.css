@@ -1,0 +1,174 @@
+.personal__container{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    height: calc(80vh);
+    padding: 0px 20px;
+    background-color: var(--background-blanco);
+}
+
+.personal__imagen{
+    background-image: url(../img/Mifoto2.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius:50%;
+    width: 368px;
+    height: 368px;
+    box-shadow: 5px 0 5px 5px rgba(111, 111, 111, 0.5);
+}
+.personal__contenido{
+    display: flex;
+    flex-direction:column;
+    width: 50%;
+}
+
+.personal__principal{
+    color: var(--font-color);
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+}
+
+.personal__parrafo{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.personal__ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+.personal__li{
+    margin-right: 3rem;
+}
+.personal__a{
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+/* Sobre mi */
+
+.sobreMi__container{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    padding: 50px 100px;
+    background-color: var(--background-azul);
+}
+
+.sobreMi__titulo{
+    color: var(--font-color);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+/* skills */
+.skills__container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    height: 50vh;
+    background-color: var(--background-blanco);
+}
+
+.skills__titulo{
+    color: var(--font-color);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.skills__ul{
+    list-style: none;
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skills__cards{
+    width: 100%;
+}
+
+.skills__li{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFF;
+    border-radius: 10px;
+    width: 200px;
+    height:170px;
+    justify-content: flex-end;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 0 0 15px 15px;
+}
+
+.skills__li>i{
+    font-size: 2rem;
+    color: var(--color-icon);
+    margin-bottom: 1rem;
+}
+
+/* hobbies */
+.hobbies__container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    height: 50vh;
+    background-color: var(--background-blanco);
+}
+
+.hobbies__titulo{
+    color: var(--font-color);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.hobbies__cards{
+    width: 100%;
+}
+
+.hobbies__ul{
+    list-style: none;
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.hobbies__li{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFF;
+    border-radius: 10px;
+    width: 200px;
+    height:170px;
+    justify-content: flex-end;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 0 0 15px 15px;
+}
+
+.hobbies__li>i{
+    font-size: 2rem;
+    color: var(--color-icon);
+    margin-bottom: 1rem;
+}
+
+/*
+.personal__imagen{
+    width: 98px;
+    height: 98px;
+    background: url(../img/Mifoto2.jpeg);
+    background-size: cover;
+    flex: none;
+    border-radius: 50%;
+}
+*/
+
