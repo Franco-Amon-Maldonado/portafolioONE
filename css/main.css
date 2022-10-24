@@ -16,7 +16,7 @@
     border-radius:50%;
     width: 368px;
     height: 368px;
-    box-shadow: 5px 0 5px 5px rgba(111, 111, 111, 0.5);
+    box-shadow: 8px 0 10px 2px var(--color-icon);
 }
 .personal__contenido{
     display: flex;
@@ -46,6 +46,7 @@
 .personal__li{
     margin-right: 3rem;
 }
+
 .personal__a{
     text-decoration: none;
     color: var(--font-color);
@@ -65,6 +66,11 @@
     color: var(--font-color);
     font-weight: 700;
     font-size: 32px;
+    line-height: 38px;
+}
+
+.sobreMi__parrafo{
+    text-align: justify;
     line-height: 38px;
 }
 
@@ -106,7 +112,6 @@
     justify-content: flex-end;
     font-weight: 700;
     font-size: 16px;
-    line-height: 19px;
     padding: 0 0 15px 15px;
 }
 

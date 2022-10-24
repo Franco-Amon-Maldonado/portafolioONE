@@ -3,6 +3,7 @@
     --background-azul: #EAF2FD;
     --font-color: #464646;
     --color-icon:#2A7AE4;
+    --color-shadow: #585858;
 
 }
 
@@ -19,12 +20,19 @@
 
   .skills__li:hover{
     cursor: pointer;
-    box-shadow: 1px 1px 13px 0.5px rgba(79, 78, 78, 0.697);
+    filter: drop-shadow(2px 4px 8px var(--color-shadow));
     transition: all 0.3s ease-in-out;
   }
 
   .hobbies__li:hover{
     cursor: pointer;
-    box-shadow: 1px 1px 13px 0.5px rgba(79, 78, 78, 0.697);
+    filter: drop-shadow(2px 4px 8px var(--color-shadow));
     transition: all 0.3s ease-in-out;
   }
+
+  .personal__li>a:hover{
+    font-weight: bold;
+    color: var(--color-icon);
+    filter: drop-shadow(2px 4px 8px var(--color-shadow));
+  }
+
