@@ -3,7 +3,8 @@
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
-    height: calc(80vh);
+    height: 100vh;
+    margin-top: 10vh;
     padding: 0px 20px;
     background-color: var(--background-blanco);
 }
@@ -79,6 +80,7 @@
 .skills__titulo{
     color: var(--font-color);
     font-weight: 700;
+    padding: 32px;
     font-size: 32px;
     line-height: 38px;
 }
@@ -126,6 +128,7 @@
 .hobbies__titulo{
     color: var(--font-color);
     font-weight: 700;
+    padding: 32px;
     font-size: 32px;
     line-height: 38px;
 }
@@ -160,6 +163,99 @@
     color: var(--color-icon);
     margin-bottom: 1rem;
 }
+
+/* formacion academica */
+
+.training__container{
+    display: flex;
+    height: 50vw;
+    padding: 32px;
+    background-color: var(--background-azul);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.training__titulo{
+    color: var(--font-color);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.training__section{
+    display: flex;
+    margin: 3vw auto;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.training__academic{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.training__academic>img{
+    width: 450px;
+    border-radius: 10px;
+}
+
+.training__pTitulo{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+
+/* experiencias */
+
+.experiencia__container{
+    display: flex;
+    background-color: var(--background-blanco);
+    align-items: center;
+    flex-direction: column;
+    padding: 32px;
+}
+
+.experiencia__titulo{
+    color: var(--font-color);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.experiencia__section{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    justify-content: center;
+}
+
+.experiencia__item{
+    display: flex;
+    margin: 2rem;
+}
+
+.experiencia__carousel{
+    display: flex;
+    width: 50%;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel__descripcion{
+    width: 50%;
+    margin-left: 2rem;
+}
+
+.experiencia__carousel img{
+   width: 100%;
+   object-fit: cover;
+}
+
+
 
 /*
 .personal__imagen{

@@ -1,3 +1,9 @@
+.head{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 
 .head__container{
     display:flex;
@@ -23,6 +29,10 @@
 .nav__a{
     text-decoration: none;
     color: var(--font-color);
+}
+
+.nav__a:hover{
+    border-bottom: 1px solid var(--color-icon);
 }
 
 .nav__a-mobile{

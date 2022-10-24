@@ -25,11 +25,11 @@
             <img class="head__img" src="/img/logo.png" alt="logo">
             <nav class="head__nav">
                 <ul class = "nav__ul">
-                    <li class="nav__li nav__desktop"><a class = "nav__a" href="#">Sobre mi</a></li>
-                    <li class="nav__li nav__desktop"><a class = "nav__a" href="#">Skills</a></li>
-                    <li class="nav__li nav__desktop"><a class = "nav__a" href="#">Hobbies</a></li>
-                    <li class="nav__li nav__desktop"><a class = "nav__a" href="#">Formación</a></li>
-                    <li class="nav__li nav__desktop"><a class = "nav__a" href="#">Proyectos</a></li>
+                    <li class="nav__li nav__desktop"><a class = "nav__a" href="#sobreMi">Sobre mi</a></li>
+                    <li class="nav__li nav__desktop"><a class = "nav__a" href="#skills">Skills</a></li>
+                    <li class="nav__li nav__desktop"><a class = "nav__a" href="#hobbies">Hobbies</a></li>
+                    <li class="nav__li nav__desktop"><a class = "nav__a" href="#formacion">Formación</a></li>
+                    <li class="nav__li nav__desktop"><a class = "nav__a" href="#proyectos">Proyectos</a></li>
                     <li class="nav__li nav__li-mobile"><a class ="nav__a nav__a-mobile"href="#">francomaldonado@contacto.com.ar</a></li>
                 </ul>
             </nav>
@@ -55,12 +55,12 @@
             </div>
         </section>
 
-        <section class="sobreMi__container">
+        <section class="sobreMi__container" id="sobreMi">
             <h2 class="sobreMi__titulo">Sobre mí</h2>
             <p class="sobreMi__parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, totam et praesentium velit blanditiis unde expedita optio ut quas odio magnam maxime laudantium similique numquam quidem nemo qui non tempore.</p>
         </section>
 
-        <section class="skills__container">
+        <section class="skills__container" id="skills">
             <h2 class="skills__titulo">Skills</h2>
             <div class="skills__cards">
                 <ul class="skills__ul">
@@ -72,7 +72,7 @@
             </div>
         </section>
 
-        <section class="hobbies__container">
+        <section class="hobbies__container" id="hobbies">
                 <h2 class="hobbies__titulo">Hobbies</h2>
                 <div class="hobbies__cards">
                     <ul class="hobbies__ul">
@@ -82,6 +82,51 @@
                         <li class="hobbies__li"><i class="fa-solid fa-tv"></i>Ver series / peliculas</li>
                     </ul>
                 </div> 
+        </section>
+
+        <section class="training__container" id="formacion">
+            <h2 class="training__titulo">Formacion académica</h2>
+            <div class="training__section">
+                <div class="training__academic">
+                    <img src="/img/logoAlura.png" alt="logoAlura" class="alura">
+                    <div class="training__descripcion">
+                        <p class="training__pTitulo">Desarrollador full-stack</p>
+                        <p class="training__pDescripcion">2022- Cursando</p>
+                    </div>
+                </div>
+                <div class="training__academic">
+                    <img src="/img/tituloAnalista.jpeg" alt="tituloAnalista" class="titulo">
+                    <div class="training__descripcion">
+                        <p class="training__pTitulo">Analista en sistemas</p>
+                        <p class="training__pDescripcion">2021 - ISFD Nº78</p>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <section class="experiencia__container" id="proyectos">
+            <h2 class="experiencia__titulo">Experiencia profesional</h2>
+            <div class="experiencia__section">
+                <div class="experiencia__item">
+                  <div class="experiencia__carousel">
+                    <img src="/img/img-experiencias/imagenAhoracado1.jpeg" alt="">
+                  </div>
+                  <div class="carousel__descripcion">
+                    <h2 class="carousel__titulo">Ahorcado</h2>
+                    <p class="carousel__parrafo">Un simple juego del ahorcado hecho en el curso de Alura LATAM</p>
+                  </div>
+                </div>
+                <div class="experiencia__item">
+                    <div class="experiencia__carousel">
+                        <img src="/img/img-experiencias/imagenBomber1.jpeg" alt="">
+                        <img src="/img/img-experiencias/imagenBomber2.jpeg" alt="">
+                    </div>
+                    <div class="carousel__descripcion">
+                        <h2 class="carousel__titulo">Bomber App</h2>
+                        <p class="carousel__parrafo">Aplicacion web y movil para el envio de alertas de siniestros. </p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     

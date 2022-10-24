@@ -6,3 +6,25 @@
 
 }
 
+::-webkit-scrollbar{
+    width: .5rem;
+    height: .5rem;
+    background-color: var(--background-blanco);
+    }
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-icon);  
+    border-radius: 2rem; 
+  }
+
+  .skills__li:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 13px 0.5px rgba(79, 78, 78, 0.697);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .hobbies__li:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 13px 0.5px rgba(79, 78, 78, 0.697);
+    transition: all 0.3s ease-in-out;
+  }
