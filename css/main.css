@@ -57,7 +57,6 @@
 .sobreMi__container{
     display: flex;
     flex-direction: column;
-    height: 50vh;
     padding: 50px 100px;
     background-color: var(--background-azul);
 }
@@ -66,7 +65,6 @@
     color: var(--font-color);
     font-weight: 700;
     font-size: 32px;
-    line-height: 38px;
 }
 
 .sobreMi__parrafo{
@@ -78,8 +76,8 @@
 .skills__container{
     display: flex;
     flex-direction: column;
+    padding: 15px;
     align-items:center;
-    height: 50vh;
     background-color: var(--background-blanco);
 }
 
@@ -88,13 +86,12 @@
     font-weight: 700;
     padding: 32px;
     font-size: 32px;
-    line-height: 38px;
 }
 
 .skills__ul{
     list-style: none;
     display: flex; 
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -107,7 +104,8 @@
     flex-direction: column;
     background-color: #FFFF;
     border-radius: 10px;
-    width: 200px;
+    width: 17%;
+    margin: 3%;
     height:170px;
     justify-content: flex-end;
     font-weight: 700;
@@ -125,8 +123,8 @@
 .hobbies__container{
     display: flex;
     flex-direction: column;
+    padding: 15px;
     align-items:center;
-    height: 50vh;
     background-color: var(--background-blanco);
 }
 
@@ -135,7 +133,6 @@
     font-weight: 700;
     padding: 32px;
     font-size: 32px;
-    line-height: 38px;
 }
 
 .hobbies__cards{
@@ -145,7 +142,7 @@
 .hobbies__ul{
     list-style: none;
     display: flex; 
-    justify-content: space-around;
+    justify-content:center;
     flex-wrap: wrap;
 }
 
@@ -154,12 +151,12 @@
     flex-direction: column;
     background-color: #FFFF;
     border-radius: 10px;
-    width: 200px;
+    width: 17%;
+    margin: 3%;
     height:170px;
     justify-content: flex-end;
     font-weight: 700;
     font-size: 16px;
-    line-height: 19px;
     padding: 0 0 15px 15px;
 }
 
@@ -174,10 +171,8 @@
 .training__container{
     display: flex;
     height: 50vw;
-    padding: 32px;
     background-color: var(--background-azul);
     flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 
@@ -185,8 +180,8 @@
 .training__titulo{
     color: var(--font-color);
     font-weight: 700;
+    text-align: center;
     font-size: 32px;
-    line-height: 38px;
 }
 
 .training__section{
