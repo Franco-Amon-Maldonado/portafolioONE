@@ -1,38 +1,39 @@
-:root{
-    --background-blanco: #E5E5E5;
-    --background-azul: #EAF2FD;
-    --font-color: #464646;
-    --color-icon:#2A7AE4;
-    --color-shadow: #585858;
+:root {
+  --background-blanco: #E5E5E5;
+  --background-azul: #EAF2FD;
+  --font-color: #464646;
+  --color-icon: #2A7AE4;
+  --color-shadow: #585858;
 
 }
 
-::-webkit-scrollbar{
-    width: .5rem;
-    height: .5rem;
-    background-color: var(--background-blanco);
-    }
+::-webkit-scrollbar {
+  width: .5rem;
+  height: .5rem;
+  background-color: var(--background-blanco);
+}
 
 ::-webkit-scrollbar-thumb {
-    background-color: var(--color-icon);  
-    border-radius: 2rem; 
-  }
+  background-color: var(--color-icon);
+  border-radius: 2rem;
+}
 
-  .skills__li:hover{
-    cursor: pointer;
-    filter: drop-shadow(2px 4px 8px var(--color-shadow));
-    transition: all 0.3s ease-in-out;
-  }
 
-  .hobbies__li:hover{
-    cursor: pointer;
-    filter: drop-shadow(2px 4px 8px var(--color-shadow));
-    transition: all 0.3s ease-in-out;
-  }
+/* Hover */
+.skills__li:hover {
+  cursor: pointer;
+  filter: drop-shadow(2px 4px 8px var(--color-shadow));
+  transition: all 0.3s ease-in-out;
+}
 
-  .personal__li>a:hover{
-    font-weight: bold;
-    color: var(--color-icon);
-    filter: drop-shadow(2px 4px 8px var(--color-shadow));
-  }
+.hobbies__li:hover {
+  cursor: pointer;
+  filter: drop-shadow(2px 4px 8px var(--color-shadow));
+  transition: all 0.3s ease-in-out;
+}
 
+.personal__li>a:hover {
+  font-weight: bold;
+  color: var(--color-icon);
+  filter: drop-shadow(2px 4px 8px var(--color-shadow));
+}
