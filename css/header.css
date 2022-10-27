@@ -1,17 +1,17 @@
-/* .head{
+.head{
     width: 100%;
     opacity: 90%;
     position: fixed;
     top: 0;
     left: 0;
-} */
+}
 
 .head__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 40px;
-    background-color: var(--background-blanco);
+    background-color: var(--background-principal);
 }
 
 .head__img {
@@ -29,7 +29,7 @@
 
 .nav__a {
     text-decoration: none;
-    color: var(--font-color);
+    color: var(--font-principal);
 }
 
 
@@ -41,12 +41,21 @@
 
 
 @media screen and (max-width: 768px) and (max-width: 1024px) {
+    .head{
+        position: static;
+        opacity: 100%;
+       }
+       
     .nav__desktop {
         display: none;
     }
 }
 
 @media screen and (max-width: 480px) {
+   .head{
+    position: static;
+    opacity: 100%;
+   }
     .head__container {
         padding: 0;
     }
@@ -60,6 +69,6 @@
     }
 
     .nav__a-mobile {
-        font-size: 11px;
+        font-size: 16px;
     }
 }

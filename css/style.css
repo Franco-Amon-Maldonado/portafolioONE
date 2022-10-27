@@ -1,8 +1,9 @@
 :root {
-  --background-blanco: #E5E5E5;
-  --background-azul: #EAF2FD;
-  --font-color: #464646;
-  --color-icon: #2A7AE4;
+  --background-secundario: #d6e2e2;
+  --background-principal: #252525;
+  --font-principal: #e2e2e2;
+  --font-secundario: #464646;
+  --acento-primario: #44624a;
   --color-shadow: #585858;
 
 }
@@ -10,33 +11,40 @@
 ::-webkit-scrollbar {
   width: .5rem;
   height: .5rem;
-  background-color: var(--background-blanco);
+  background-color: var(--background-secundario);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--color-icon);
+  background-color: var(--acento-primario);
   border-radius: 2rem;
 }
 
 
 /* Hover */
 .nav__a:hover {
-  border-bottom: 1px solid var(--color-icon);
+  border-bottom: 1px solid var(--acento-primario);
 }
-.skills__li:hover {
+
+.habilidades__li:hover {
   cursor: pointer;
-  filter: drop-shadow(2px 4px 8px var(--color-shadow));
+  color: var(--font-principal);
+  background-color: var(--acento-primario);
+  filter: drop-shadow(2px 4px 8px var(--acento-primario));
   transition: all 0.3s ease-in-out;
 }
 
-.hobbies__li:hover {
+.habilidades__li>i:hover{
+  color: var(--font-principal);
+}
+
+/* .hobbies__li:hover {
   cursor: pointer;
   filter: drop-shadow(2px 4px 8px var(--color-shadow));
   transition: all 0.3s ease-in-out;
-}
+} */
 
 .personal__li>a:hover {
   font-weight: bold;
-  color: var(--color-icon);
+  color: var(--acento-primario);
   filter: drop-shadow(2px 4px 8px var(--color-shadow));
 }
