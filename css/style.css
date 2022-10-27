@@ -1,8 +1,9 @@
+
 :root {
   --background-secundario: #d6e2e2;
   --background-principal: #252525;
   --font-principal: #e2e2e2;
-  --font-secundario: #464646;
+  --font-secundario: #9c9c9c;
   --acento-primario: #44624a;
   --color-shadow: #585858;
 
@@ -21,8 +22,10 @@
 
 
 /* Hover */
-.nav__a:hover {
-  border-bottom: 1px solid var(--acento-primario);
+
+.nav__li:hover{
+  transition: all 0.5s;
+  transform: scale(1.2);
 }
 
 .habilidades__li:hover {
@@ -30,18 +33,14 @@
   color: var(--font-principal);
   background-color: var(--acento-primario);
   filter: drop-shadow(2px 4px 8px var(--acento-primario));
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s;
+  transform: scale(1.1);
 }
 
 .habilidades__li>i:hover{
   color: var(--font-principal);
 }
 
-/* .hobbies__li:hover {
-  cursor: pointer;
-  filter: drop-shadow(2px 4px 8px var(--color-shadow));
-  transition: all 0.3s ease-in-out;
-} */
 
 .personal__li>a:hover {
   font-weight: bold;

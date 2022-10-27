@@ -11,7 +11,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 40px;
-    background-color: var(--background-principal);
+    /* background-color: var(--background-principal); */
 }
 
 .head__img {
@@ -25,6 +25,7 @@
 .nav__li {
     list-style: none;
     margin: 0 1rem;
+    position: relative;
 }
 
 .nav__a {
@@ -33,10 +34,25 @@
 }
 
 
+.nav__desktop::after{
+    position:absolute;
+    top: 0;
+    right:-13px;
+    bottom:0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #303030;
+    content: "";
+}
+
 .nav__a-mobile {
     font-weight: 700;
     font-size: 16px;
     text-transform: uppercase;
+}
+
+.nav__a-mobile>i{
+    margin-right: 5px;
 }
 
 
