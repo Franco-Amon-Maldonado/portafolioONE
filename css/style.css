@@ -20,6 +20,9 @@
 
 
 /* Hover */
+.nav__a:hover {
+  border-bottom: 1px solid var(--color-icon);
+}
 .skills__li:hover {
   cursor: pointer;
   filter: drop-shadow(2px 4px 8px var(--color-shadow));
