@@ -47,3 +47,28 @@
   color: var(--acento-primario);
   filter: drop-shadow(2px 4px 8px var(--color-shadow));
 }
+
+
+/* Animaciones */
+
+@keyframes gradiente{
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes spinner-imagen{
+  0% {
+      transform: rotate(0deg)
+  } to {
+      transform: rotate(1turn)
+  }
+}
+
+  

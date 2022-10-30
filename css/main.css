@@ -12,11 +12,27 @@
     background-image: url(../img/imagenPersonal.jpg);
     background-position: center;
     background-size: cover;
+    position: relative;
+    z-index: -1;
     border-radius: 50%;
     width: 368px;
     height: 368px;
-    box-shadow: 16px 0 9px 5px var(--acento-primario);
+    /* box-shadow: 16px 0 9px 5px var(--acento-primario); */
 }
+
+.borde{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    border-top: 3.2px solid #579486;
+    border-left: 3.5px solid #3AC7A6;
+    border-right: 3.5px solid  #3AC7A6;
+    border-bottom: 3.2px solid #579486;
+    animation: spinner-imagen 7s linear infinite; 
+    filter: blur(8px); 
+}
+
 
 .personal__contenido {
     display: flex;
@@ -112,9 +128,13 @@
 .habilidades__li {
     display: flex;
     flex-direction: column;
-    background-color: #FFFF;
-    border-radius: 10px;
-    width: 17%;
+    color: var(--font-principal);
+    background: linear-gradient(-40deg, #579486, #3AC7A6, #44624A, #6E3058, #8F5794 );
+    /* background: linear-gradient(-40deg, #78AD82, #307A3F, #44624A, #44AD59, #ACFABC ); */
+    animation: gradiente 7s ease infinite;
+    background-size: 450% 450%;
+    border-radius: 25px 40px 25px 0px;
+    width: 19%;
     margin: 3%;
     height: 170px;
     justify-content: flex-end;
@@ -125,7 +145,7 @@
 
 .habilidades__li>i {
     font-size: 2rem;
-    color: var(--acento-primario);
+    color: var(--font-secundario);
     margin-bottom: 1rem;
     height:100%;
     display:flex;
@@ -166,6 +186,7 @@
 .training__academic>img {
     width: 450px;
     border-radius: 10px;
+    background-color: var(--font-secundario);
     height: 100%;
     border: 1px solid var(--font-secundario);
 }

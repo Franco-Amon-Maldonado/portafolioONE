@@ -1,6 +1,7 @@
 .head{
     width: 100%;
-    opacity: 90%;
+    opacity: 70%;
+    background-color: #101010;
     position: fixed;
     top: 0;
     left: 0;
