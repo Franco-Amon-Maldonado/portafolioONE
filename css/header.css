@@ -19,6 +19,10 @@
     width: 170px;
 }
 
+.head__imgMobile{
+    display: none
+}
+
 .nav__ul {
     display: flex;
 }
@@ -76,9 +80,13 @@
     .head__container {
         padding: 0;
     }
-
-    .head__img {
+    .head__img{
+        display: none;
+    }
+    .head__imgMobile {
+        display: block;
         width: 100px;
+        padding: 10px;
     }
 
     .nav__ul {

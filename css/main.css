@@ -17,15 +17,16 @@
     align-items: center;
     position: relative;
     border-radius: 50%;
-    box-shadow: inset 0px -8px 20px 1px var(--acento-primario);
     width: 297px;
     height: 297px;
 }
 
 .borde{
-    width: 305px;
-    height: 305px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
+    right: 10vw; 
+    bottom: 11vw;
     position: absolute;
     border-top: 3.2px solid #579486;
     border-left: 3.5px solid #3AC7A6;
@@ -274,6 +275,13 @@
         height: 200px;
     }
 
+    .borde{
+        width: 170px;
+        height: 170px;
+        bottom: 50vh;
+        right: 4.9vw;
+    }
+
     .personal__principal {
         font-size: 22px;
         line-height: 26px;
@@ -344,7 +352,13 @@
         width: 150px;
         height: 150px;
         margin: auto auto;
-        box-shadow: 5px 0 10px 1px var(--acento-primario);
+    }
+
+    .borde{
+        width: 120px;
+        height: 120px;
+        right:33vw;
+        bottom:35.5vh;
     }
 
     .personal__contenido {
