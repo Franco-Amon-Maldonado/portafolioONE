@@ -9,14 +9,14 @@
 }
 
 .personal__imagen {
-    background-image: url(../img/imagenPersonal.jpg);
+    background-image: url(../img/avatarPersonal.png);
     background-position: center;
     background-size: cover;
     position: relative;
     z-index: -1;
     border-radius: 50%;
-    width: 368px;
-    height: 368px;
+    width: 320px;
+    height: 320px;
     /* box-shadow: 16px 0 9px 5px var(--acento-primario); */
 }
 
@@ -29,7 +29,7 @@
     border-left: 3.5px solid #3AC7A6;
     border-right: 3.5px solid  #3AC7A6;
     border-bottom: 3.2px solid #579486;
-    animation: spinner-imagen 7s linear infinite; 
+    animation: spinner-imagen 5s linear infinite; 
     filter: blur(8px); 
 }
 

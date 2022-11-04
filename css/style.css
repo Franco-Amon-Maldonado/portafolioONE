@@ -12,7 +12,8 @@
 ::-webkit-scrollbar {
   width: .5rem;
   height: .5rem;
-  background-color: var(--background-secundario);
+  /* background-color: var(--background-secundario); */
+  background: rgb(16,16,16);
 }
 
 ::-webkit-scrollbar-thumb {
