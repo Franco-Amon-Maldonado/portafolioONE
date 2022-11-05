@@ -15,19 +15,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
     border-radius: 50%;
     width: 297px;
     height: 297px;
 }
 
 .borde{
-    width: 250px;
-    height: 250px;
+    width: 290px;
+    height: 290px;
     border-radius: 50%;
-    right: 10vw; 
-    bottom: 11vw;
-    position: absolute;
     border-top: 3.2px solid #579486;
     border-left: 3.5px solid #3AC7A6;
     border-right: 3.5px solid  #3AC7A6;
@@ -258,15 +254,21 @@
     color: var(--font-secundario);
 }
 
-@media screen and (min-width: 900px) and (max-width:1440px){
-    .borde{
-        right:9.7vw;
-        bottom: 7.6vw;
+
+
+@media screen and (max-width: 1040px){
+  
+   .personal__principal{
+    font-size:30px;
+    }   
+    .personal__li{
+    margin-right: 1rem;
     }
 }
+   
 
 
-@media screen and (max-width: 768px) and (max-width:1024px) {
+@media screen and (max-width: 768px) {
     /* Informacion personal */
 
     .personal__container {
@@ -284,10 +286,8 @@
     }
 
     .borde{
-        width: 170px;
-        height: 170px;
-        bottom: 50vh;
-        right: 4.9vw;
+        width: 190px;
+        height: 190px;
     }
 
     .personal__principal {
@@ -345,10 +345,82 @@
         margin: 0;
     }
 }
+@media screen and (max-width: 570px){
+    .personal__container {
+        height: auto;
+        flex-direction: column;
+        justify-content:center;
+    }
+
+    .personal__contenido{
+        width: 100%;
+    }
+    .personal__ul{
+        justify-content:center;
+    }
+    .personal__li{
+        margin-right: 6px;
+    }
+
+    .sobreMi__container{
+        width: 100%;
+        padding:0;
+    }
+
+    .habilidades__container{
+        width: 100%;
+        padding:0;
+    }
+    
+    .habilidades__li {
+        width: 39%;
+    }
+
+    .training__container {
+        height: auto;
+    }
+
+    .training__section {
+        flex-direction: column;
+    }
+
+    .training__academic>img {
+        width: 100%;
+    }
+
+    .training__descripcion{
+        margin: auto 1rem;
+    }
+
+    .experiencia__container {
+        padding: 10px;
+    }
+
+    .experiencia__titulo {
+        text-align: center;
+    }
+
+    .experiencia__item {
+        flex-direction: column;
+        margin: 2rem auto;
+    }
+
+    .experiencia__carousel {
+        width: 100%;
+    }
+
+    .carousel__titulo {
+        text-align: center;
+    }
+
+    .carousel__descripcion {
+        width: 100%;
+        margin: 0;
+    }
+}
 
 
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 380px) {
 
     /* personal */
     .personal__container {
@@ -359,16 +431,14 @@
     }
 
     .personal__imagen {
-        width: 150px;
-        height: 150px;
-        margin: auto auto;
+        width: 170px;
+        height: 170px;
+        margin: auto;
     }
 
     .borde{
-        width: 120px;
-        height: 120px;
-        right:33vw;
-        bottom:35.5vh;
+        width: 100%;
+        height: 100%;
     }
 
     .personal__contenido {
@@ -413,13 +483,6 @@
         width: 39%;
     }
 
-    .hobbies__ul {
-        padding: 0;
-    }
-
-    .hobbies__li {
-        width: 39%;
-    }
 
     /* training */
     .training__container {
@@ -434,9 +497,10 @@
         width: 100%;
     }
 
-    .training__academic {
-        align-items: center;
+    .training__descripcion{
+        margin: auto 1rem;
     }
+
 
     /* experiencias */
     .experiencia__container {
