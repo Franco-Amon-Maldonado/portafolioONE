@@ -5,7 +5,6 @@
     align-items: center;
     height: 100vh;
     padding: 50px 20px;
-    /* background-color: var(--background-principal); */
 }
 
 .personal__imagen {
@@ -13,8 +12,8 @@
     background-position: center;
     background-size: cover;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     border-radius: 50%;
     width: 297px;
     height: 297px;
@@ -76,7 +75,6 @@
 .sobreMi__container {
     display: flex;
     flex-direction: column;
-    /* background-color: var(--background-secundario); */
     padding: 15px;
     align-items: center;
 }
@@ -102,7 +100,7 @@
     flex-direction: column;
     padding: 50px;
     align-items: center;
-    /* background-color: var(--background-principal); */
+
 }
 
 .habilidades__titulo {
@@ -129,7 +127,6 @@
     flex-direction: column;
     color: var(--font-principal);
     background: linear-gradient(-40deg, #579486, #3AC7A6, #44624A, #6E3058, #8F5794 );
-    /* background: linear-gradient(-40deg, #78AD82, #307A3F, #44624A, #44AD59, #ACFABC ); */
     animation: gradiente 7s ease infinite;
     background-size: 450% 450%;
     border-radius: 25px 40px 25px 0px;
@@ -156,7 +153,6 @@
 .training__container {
     display: flex;
     height: 50vw;
-    /* background-color: var(--background-secundario); */
     flex-direction: column;
     justify-content: center;
 }
@@ -206,7 +202,6 @@
 
 .experiencia__container {
     display: flex;
-    /* background-color: var(--background-principal); */
     align-items: center;
     flex-direction: column;
     padding: 32px;

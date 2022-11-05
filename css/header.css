@@ -17,6 +17,7 @@
 
 .head__img {
     width: 170px;
+    cursor: pointer;
 }
 
 .head__imgMobile{

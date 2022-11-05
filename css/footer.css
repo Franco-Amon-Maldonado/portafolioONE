@@ -7,7 +7,7 @@
 
 .footer__borde{
     width: 15%;
-    border-top: 1px solid var(--font-secundario);
+    border-top: 1px solid var(--acento-primario);
 }
 .footer__copy {
     text-align: center;

@@ -12,7 +12,6 @@
 ::-webkit-scrollbar {
   width: .5rem;
   height: .5rem;
-  /* background-color: var(--background-secundario); */
   background: rgb(16,16,16);
 }
 
@@ -46,6 +45,7 @@
 .personal__li>a:hover {
   font-weight: bold;
   color: var(--acento-primario);
+  transition: all 0.2s;
   filter: drop-shadow(2px 4px 8px var(--color-shadow));
 }
 
