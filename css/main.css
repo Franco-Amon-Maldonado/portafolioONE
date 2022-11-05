@@ -251,13 +251,23 @@
 
 
 
-@media screen and (max-width: 1040px){
-  
+@media only screen and (max-width: 768px) and (orientation: landscape) {
+    .personal__container{
+        padding:0 2px;
+    }
+
+    .personal__imagen{
+        width: 20%;
+    }
+    .personal__contenido{
+        width: 30%;
+    }
+
    .personal__principal{
-    font-size:30px;
+    font-size: 30px;
     }   
     .personal__li{
-    margin-right: 1rem;
+    margin-right: none;
     }
 }
    
@@ -340,6 +350,9 @@
         margin: 0;
     }
 }
+
+
+
 @media screen and (max-width: 570px){
     .personal__container {
         height: auto;
