@@ -4,7 +4,7 @@
   --background-principal: #252525;
   --font-principal: #e2e2e2;
   --font-secundario: #9c9c9c;
-  --acento-primario: #44624a;
+  --acento-primario: #c4f864;
   --color-shadow: #585858;
 
 }
@@ -19,7 +19,6 @@
   background-color: var(--acento-primario);
   border-radius: 2rem;
 }
-
 
 /* Hover */
 
@@ -45,7 +44,7 @@
 .personal__li>a:hover {
   font-weight: bold;
   color: var(--acento-primario);
-  transition: all 0.2s;
+  transition: all 0.5s ease-in;
   filter: drop-shadow(2px 4px 8px var(--color-shadow));
 }
 
