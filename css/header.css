@@ -16,7 +16,8 @@
 }
 
 .head__img {
-    width: 170px;
+    width: 150px;
+    padding: 25px 5px ;
     cursor: pointer;
 }
 
@@ -97,7 +98,7 @@
     }
     .head__imgMobile {
         display: block;
-        width: 100px;
+        width: 55px;
         padding: 10px;
     }
 
