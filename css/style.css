@@ -9,6 +9,10 @@
 
 }
 
+a{
+  color: #c4f864;
+}
+
 ::-webkit-scrollbar {
   width: .5rem;
   height: .5rem;

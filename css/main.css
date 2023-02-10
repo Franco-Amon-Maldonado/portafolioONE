@@ -221,6 +221,7 @@
 
 .experiencia__item {
     display: flex;
+    align-items: center;
     flex-direction: column;
     width: 45%;
     margin: 2rem;
@@ -228,7 +229,8 @@
 
 
 .carousel__descripcion {
-  height: auto;  
+  height: auto; 
+  align-self: flex-start;
 }
 
 .experiencia__carousel>img {
