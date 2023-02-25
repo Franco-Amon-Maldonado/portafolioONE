@@ -8,7 +8,7 @@
 }
 
 .personal__imagen {
-    background-image: url(../img/avatarPersonal.png);
+    background-image: url(../img/avatarPersonal-min.png);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -67,7 +67,6 @@
 
 .personal__a {
     text-decoration: none;
-    color: var(--font-principal);
 }
 
 /* Sobre mi */
@@ -234,7 +233,7 @@
 }
 
 .experiencia__carousel>img {
-    width: 100%;
+    width: 300px;
     height: 350px;
     object-fit:contain;
     border-radius: 15px;
@@ -340,7 +339,7 @@
     }
 
     .personal__li {
-        margin-right: 1rem;
+        margin-right: 2rem;
     }
 
     /* sobre mi */
@@ -384,6 +383,7 @@
     }
     .personal__ul{
         justify-content:center;
+        
     }
     .personal__li{
         margin-right: 6px;
@@ -416,6 +416,7 @@
 
     .training__academic>img {
         width: 100%;
+
     }
 
     .training__descripcion{
@@ -444,6 +445,9 @@
         text-align: center;
     }
 
+    .experiencia__carousel>img{
+        width: 100%;
+    }
     .carousel__descripcion {
         width: 100%;
         margin: 0;
