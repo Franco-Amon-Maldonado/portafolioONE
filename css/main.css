@@ -66,6 +66,9 @@
 }
 
 .personal__a {
+    color: var(--acento-primario);
+    font-weight: bold;
+    transition: all 0.4s ease;
     text-decoration: none;
 }
 

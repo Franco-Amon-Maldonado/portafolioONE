@@ -10,7 +10,7 @@
 }
 
 a{
-  color: #c4f864;
+  
 }
 
 ::-webkit-scrollbar {
@@ -46,9 +46,9 @@ a{
 
 
 .personal__a:hover {
-  font-weight: bold;
   cursor: pointer;
-  color: var(--acento-primario);
+  color: #bb30f5;
+  
   filter: drop-shadow(2px 4px 8px var(--color-shadow));
 }
 
