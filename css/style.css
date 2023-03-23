@@ -9,8 +9,10 @@
 
 }
 
-a{
-  
+.titulo{
+    background: linear-gradient(to right, var(--acento-primario), rgba(68, 2, 135, 0.988));
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 ::-webkit-scrollbar {
@@ -48,7 +50,6 @@ a{
 .personal__a:hover {
   cursor: pointer;
   color: #bb30f5;
-  
   filter: drop-shadow(2px 4px 8px var(--color-shadow));
 }
 
