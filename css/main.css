@@ -326,7 +326,7 @@
 }
 
 .training__academic>img {
-    width: 450px;
+    width: 100%;
     border-radius: 10px;
     background-color: var(--font-secundario);
     border: 1px solid var(--font-secundario);
@@ -349,13 +349,20 @@
     .training__section{
         grid-template-columns: 1fr 1fr;
         place-items: center;
-        
+        grid-column-gap: 2rem;
     }
 
     .training__academic>img{
-        min-width: 600px;
+        width: 350px;
     }
 }
+
+@media(min-width:992px){
+    .training__academic>img{
+        width: 600px;
+    }
+}
+
 
 
 /* experiencias */
@@ -363,7 +370,9 @@
 .experiencia__container {
     display: flex;
     flex-direction: column;
-    /* padding: 32px; */
+    justify-content: center;
+    gap: 5rem;
+    min-height: 100vh;
 }
 
 .experiencia__titulo {
@@ -371,40 +380,36 @@
     text-align: center;
     font-size: 32px;
     text-transform: uppercase;
+    background: linear-gradient(to right, var(--acento-primario), rgba(68, 2, 135, 0.988));
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .experiencia__section {
-    display: flex;
-    margin: 2rem;
-    flex-wrap: wrap;
-    justify-content:center;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5rem;
 }
 
 .experiencia__item {
     display: flex;
-    align-items: center;
     flex-direction: column;
-    width: 45%;
-    margin: 2rem;
+    justify-content: center;
+    padding: 20px;
 }
 
-
-.carousel__descripcion {
-  height: auto; 
-  align-self: flex-start;
-}
-
-.experiencia__carousel>img {
+.experiencia__item>img {
+    align-self: center;
     width: 300px;
-    height: 350px;
-    object-fit:contain;
+    height:auto;
     border-radius: 15px;
-    filter: drop-shadow(1px 1px 2.5px var(--acento-primario));
 }
-
 
 .carousel__titulo{
     color: var(--font-principal);
+    text-align: center;
+    margin-top: 2rem;
+    cursor: pointer;
 }
 .carousel__parrafo{
     color: var(--font-secundario);
@@ -415,131 +420,31 @@
     color: var(--acento-primario);
 }
 
-
-
-
-@media screen and (max-width: 768px) {
-
-    /* training */
-    .training__container {
-        padding: 15px;
-    }
-
-    .training__section {
-        margin: 0;
-    }
-
-    .training__academic>img {
-        width: 270px;
-    }
-
-    /* experiencias */
+@media(min-width:768px){
     .experiencia__section {
-        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
     }
+}
+
+@media(min-width:992px){
+    .experiencia__section {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+    }
+
+    .experiencia__item>img{
+        width: 300px;
+        height: auto;
+    }
+
+    .carousel__descripcion{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    
     .experiencia__item{
-        width: 100%;
-    }
-}
-
-
-
-@media screen and (max-width: 570px){
-
-    .training__container {
-        height: auto;
-    }
-
-    .training__section {
-        flex-direction: column;
-    }
-
-    .training__academic>img {
-        width: 100%;
-
-    }
-
-    .training__descripcion{
-        margin: auto 1rem;
-    }
-
-    .experiencia__container {
-        padding: 10px;
-    }
-
-    .experiencia__titulo {
-        text-align: center;
-    }
-
-    .experiencia__item {
-        flex-direction: column;
-        width: 100%;
-        margin: 2rem auto;
-    }
-
-    .experiencia__carousel {
-        width: 100%;
-    }
-
-    .carousel__titulo {
-        text-align: center;
-    }
-
-    .experiencia__carousel>img{
-        width: 100%;
-    }
-    .carousel__descripcion {
-        width: 100%;
-        margin: 0;
-    }
-}
-
-
-@media screen and (max-width: 380px) {
-
-
-    /* training */
-    .training__container {
-        height: auto;
-    }
-
-    .training__section {
-        flex-direction: column;
-    }
-
-    .training__academic>img {
-        width: 100%;
-    }
-
-    .training__descripcion{
-        margin: auto 1rem;
-    }
-
-
-    /* experiencias */
-    .experiencia__container {
-        padding: 10px;
-    }
-
-    .experiencia__titulo {
-        text-align: center;
-    }
-
-    .experiencia__item {
-        flex-direction: column;
-        margin: 2rem auto;
-    }
-
-    .experiencia__carousel {
-        width: 100%;
-    }
-
-    .carousel__titulo {
-        text-align: center;
-    }
-
-    .carousel__descripcion {
-        width: 100%;
-        margin: 0;
+        justify-content: space-between;
     }
 }

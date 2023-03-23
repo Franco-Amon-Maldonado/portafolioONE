@@ -129,49 +129,47 @@
             <h2 class="experiencia__titulo">Experiencia profesional</h2>
 
             <div class="experiencia__section">
-
-                <div class="experiencia__item">
-                    <div class="experiencia__carousel">
-                        <img src="/img/img-experiencias/imagenAhoracado1.jpeg" alt="">
-                    </div>
-                    <div class="carousel__descripcion">
-                        <h2 class="carousel__titulo">Ahorcado</h2>
-                        <p class="carousel__parrafo">Un simple juego del ahorcado hecho en el curso de Alura LATAM.</p>
-                        <p class="carousel__parrafo">Link al <a href="https://github.com/Franco-Amon-Maldonado/ahorcadoONE">Repositorio</a></p>
-                    </div>
-                </div>
-
+                
                 <div class="experiencia__item" id="appBombero">
-                    <div class="experiencia__carousel">
-                        <img src="/img/img-experiencias/logoBombero.png" alt="imagenBomber2">
-                    </div>
-                    <div class="carousel__descripcion">
-                        <h2 class="carousel__titulo">Bomber App</h2>
+
+                        <img class="logoBombero" src="/img/img-experiencias/logoBombero.png" alt="imagenBomber2">
+                    
+                    <details class="carousel__descripcion">
+                        <summary class="carousel__titulo">Bomber App</summary>
                         <p class="carousel__parrafo">Aplicacion web y móvil para el envío de alertas de siniestros. </p>
-                    </div>
+                    </details>
                 </div>
 
                 <div class="experiencia__item">
-                    <div class="experiencia__carousel">
-                        <img src="/img/img-experiencias/logoVeteriaria.png" alt="imagen citas veterinaria">
-                    </div>
-                    <div class="carousel__descripcion">
-                        <h2 class="carousel__titulo">Citas Veteriaria</h2>
-                        <p class="carousel__parrafo">Aplicación web sencilla para la administracion de pacientes de una veterinaria realizada con ReactJs. Utiliza la libreria modal de Sweet Alert 2 </p>
-                        <p class="carousel__parrafo">Link al <a href="https://github.com/Franco-Amon-Maldonado/administrador-citas-veterinaria">Repositorio</a> </p>
-                    </div>
+                    <img src="/img/img-experiencias/AdministradorGastos.jpeg" alt="">
+                   
+                    <details class="carousel__descripcion">
+                        <summary class="carousel__titulo">Administrador de gastos</summary>
+                        <p class="carousel__parrafo">Aplicacion de planificador de gastos. Al inicio de la app debes ingresar el monto de capital con el que cuentas, luego ir agregando los gastos. Consta con un filtro de gastos para mayor control. Como herramienta de compilación se utilizó Vite, y para los estilos css puro</p>
+                        <p class="carousel__parrafo">Link al <a target="_blank" href="https://github.com/Franco-Amon-Maldonado/ahorcadoONE">Repositorio</a></p>
+                    </details>
                 </div>
 
                 <div class="experiencia__item">
-                    <div class="experiencia__carousel">
-                        <img src="/img/img-experiencias/ta-te-ti.jpeg" alt="imagen juego ta-te-ti">
-                    </div>
-                    <div class="carousel__descripcion">
-                        <h2 class="carousel__titulo">TA-TE-TI</h2>
+                    <img src="/img/img-experiencias/ta-te-ti.jpeg" alt="imagen juego ta-te-ti">
+
+                    <details class="carousel__descripcion">
+                        <summary class="carousel__titulo">TA-TE-TI</summary>
                         <p class="carousel__parrafo">Juego clásico conocido en mi pais como "ta-te-ti", el cual consta de 2 jugadores. El primer jugador coloca la ficha en cualquiera de los casilleros del tablero. El segundo hará lo mismo con su primera ficha. Se continúa las otras jugadas respetando los turnos, si el jugador consigue alinear tres marcas del mismo tipo, ese jugador gana</p>
-                        <p class="carousel__parrafo">Link al <a href="https://github.com/Franco-Amon-Maldonado/game-ta-te-ti/tree/develoment/game-ta-te-ti">Repositorio</a> </p>
-                    </div>
+                        <p class="carousel__parrafo">Link al <a target="_blank" href="https://github.com/Franco-Amon-Maldonado/game-ta-te-ti/tree/develoment/game-ta-te-ti">Repositorio</a> </p>
+                    </details>
                 </div>
+
+                <div class="experiencia__item">
+                    <img src="/img/img-experiencias/logoVeteriaria.png" alt="imagen citas veterinaria">
+                    <details class="carousel__descripcion">
+                        <summary class="carousel__titulo">Citas Veteriaria</summary>
+                        <p class="carousel__parrafo">Aplicación web sencilla para la administracion de pacientes de una veterinaria realizada con ReactJs. Utiliza la libreria modal de Sweet Alert 2 </p>
+                        <p class="carousel__parrafo">Link al <a target="_blank" href="https://github.com/Franco-Amon-Maldonado/administrador-citas-veterinaria">Repositorio</a> </p>
+                    </details>
+                </div>
+
+              
             </div>
         </section>
     </main>
@@ -180,13 +178,15 @@
         <div class="footer__container">
             <div class="footer__borde"></div>
             <div class="footer__info">
-                <p class="footer__copy"> &copy; 2022- Maldonado Franco </p>
-                <p class="footer__colaboracion">Colaboracion: <a target="_blank" href="https://github.com/caputoortega">Caputo</a> <a target="_blank" href="https://github.com/pablodimarco">Di Marco</a></p>
+                <p class="footer__copy"> &copy; <span id="anio"></span> Maldonado Franco </p>
+                <p class="footer__colaboracion">Colaboración: <a target="_blank" href="https://github.com/caputoortega">Caputo</a>&<a target="_blank" href="https://github.com/pablodimarco">Di Marco</a></p>
             </div>
             
         </div>
     </footer>
     <script defer src="https://kit.fontawesome.com/c9b6d6e5ad.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    
 </body>
 
 </html>
