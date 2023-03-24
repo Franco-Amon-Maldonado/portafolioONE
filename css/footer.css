@@ -18,11 +18,14 @@
 
 @media screen and (min-width: 768px) {
     .footer__copy {
-        font-size: 12px;
+        font-size: 1rem;
     }
 
     .footer__info{
         display: flex;
         align-items:center;
+    }
+    .footer__colaboracion{
+        font-size: .8rem;
     }
 }
